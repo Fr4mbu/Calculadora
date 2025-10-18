@@ -4,8 +4,7 @@ public class Calculadora {
 	private int n2;
 
 	public Calculadora() {
-		// TODO - implement Calculadora.Calculadora
-		throw new UnsupportedOperationException();
+		//constructor vacio para que compile
 	}
 
 	/**
@@ -14,18 +13,16 @@ public class Calculadora {
 	 * @param num2
 	 */
 	public Calculadora(int num1, int num2) {
-		// TODO - implement Calculadora.Calculadora
-		throw new UnsupportedOperationException();
+		this.n1 = num1;
+        this.n2 = num2;
 	}
 
 	public int sumar() {
-		// TODO - implement Calculadora.sumar
-		throw new UnsupportedOperationException();
+		return 0;
 	}
 
 	public int multiplicar() {
-		// TODO - implement Calculadora.multiplicar
-		throw new UnsupportedOperationException();
+		return 0;
 	}
 
 	/**
