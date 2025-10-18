@@ -18,7 +18,7 @@ asi el `CarroCompra` utiliza los servicios de un objeto `Calculadora`.
 **ii. Analice los atributos y métodos de cada clase, luego, identifique las relaciones existentes
 entre las clases identificadas y establezca una descripción textual breve del contexto 
 problema.**
-La relacion existente entre las clases es "Uso". Se identifica esta relacion porque la clase 
+La relacion existente entre las clases es dependencia o de "Uso". Se identifica esta relacion porque la clase 
 `CarroCompra`, para poder ejecutar su metodo `subTotal(int cant, int precio)`, necesita crear una
 instancia de `Calculadora`. Esta instancia de `Calculadora` no se guarda como un atributo en 
 `CarroCompra`, solo se usa temporalmente dentro de ese metodo para llamar a `calc.multiplicar()`.
@@ -28,6 +28,3 @@ porque necesita utilizar su funcionalidad (especificamente el metodo `multiplica
 completar su propia operacion de calcular el subtotal de un producto.
 
 
-iii. De lo anterior, establezca una representación detallada del código fuente, usando un diagrama de clases UML y la herramienta de modelado Visual Paradigm.
-
-iv. Genere un código fuente Java a partir de su modelo de clases, de forma automática.
